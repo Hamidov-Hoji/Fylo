@@ -1,0 +1,9 @@
+.logo-link__picture {
+  width: 176px;
+  height: 52px;
+  transition: 0.5s;
+}
+
+.logo-link__picture:hover {
+  transform: scale(1.2);
+}

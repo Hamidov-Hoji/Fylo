@@ -1,0 +1,32 @@
+.header {
+  padding-top: 76px;
+  padding-bottom: 75px;
+  background-color:  $color-bg-site;
+} 
+
+.header__wrapper {
+  @include flex-style(center, space-between);
+}
+
+.header__list {
+  @include list-unstyled(none);
+  @include flex-style(center, flex-start)
+}
+
+.header__item ~ .header__item {
+  margin-left: 57px;
+}
+
+.header__link {
+  padding-bottom: 5px;
+  @include link-unstyled;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.header__link:hover {
+  color: crimson;
+  border-bottom: 1px solid crimson;
+}

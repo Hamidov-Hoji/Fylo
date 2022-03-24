@@ -1,0 +1,46 @@
+
+.hero__picture {
+  margin: 0 auto;
+  margin-bottom: 36px;
+  width: 720px;
+  height: 534px;
+}
+
+.hero__title {
+  margin: 0 auto;
+  width: 734px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero__text {
+  margin: 32px auto;
+  width: 589px;
+  font-family: "Open Sans" sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero__inner {
+  text-align: center;
+}
+
+.hero__btn {
+  margin-bottom: 172px;
+  padding: 19px 95px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #63e1d9;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    background-color: cornflowerblue;
+  }
+}
